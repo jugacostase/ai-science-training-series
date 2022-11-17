@@ -1,55 +1,19 @@
-ModuleCmd_Load.c(244):ERROR:105: Unable to locate a modulefile for 'conda/2022-07-01'
-
-CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
-To initialize your shell, run
-
-    $ conda init <SHELL_NAME>
-
-Currently supported shells are:
-  - bash
-  - fish
-  - tcsh
-  - xonsh
-  - zsh
-  - powershell
-
-See 'conda init --help' for more information and options.
-
-IMPORTANT: You may need to close and restart your shell after running 'conda init'.
-
-
 Job ID: 
-Job started at: 2022-11-17-021157
-DIR:/lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci
+Job started at: 2022-11-17-110015
+DIR:/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  Job started at: 2022-11-17-021157 on thetalogin6           ┃
+┃  Job started at: 2022-11-17-110015 on thetagpu22           ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-ModuleCmd_Load.c(244):ERROR:105: Unable to locate a modulefile for 'conda/2022-07-01'
-
-CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
-To initialize your shell, run
-
-    $ conda init <SHELL_NAME>
-
-Currently supported shells are:
-  - bash
-  - fish
-  - tcsh
-  - xonsh
-  - zsh
-  - powershell
-
-See 'conda init --help' for more information and options.
-
-IMPORTANT: You may need to close and restart your shell after running 'conda init'.
-
-
-./main.sh: line 73: ${COBALT_NODEFILE}: ambiguous redirect
-./main.sh: line 76: *2: syntax error: operand expected (error token is "*2")
-Creating new venv at: 
-Requirement already satisfied: pip in /lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/venvs/thetaGPU/2022-07-01/lib/python3.8/site-packages (22.3.1)
-./main.sh: line 99: /bin/activate: No such file or directory
-Obtaining file:///lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining
+Found venv at: /home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/venvs/thetaGPU/2022-07-01
+Collecting pip
+  Using cached pip-22.3.1-py3-none-any.whl (2.1 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.1.1
+    Uninstalling pip-20.1.1:
+      Successfully uninstalled pip-20.1.1
+Successfully installed pip-22.3.1
+Obtaining file:///home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'
   Checking if build backend supports build_editable: started
@@ -61,45 +25,86 @@ Obtaining file:///lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series
 Building wheels for collected packages: ai4sci
   Building editable for ai4sci (pyproject.toml): started
   Building editable for ai4sci (pyproject.toml): finished with status 'done'
-  Created wheel for ai4sci: filename=ai4sci-0.0.0-0.editable-py3-none-any.whl size=1185 sha256=55437f4a6351d26ae634dfc710767e8f9ccbbeb53d521dc94e24cccf86ef5e8e
-  Stored in directory: /tmp/pip-ephem-wheel-cache-8n29_jk2/wheels/6b/f1/8d/925a2d3a5f4f97cdcde5bd8db0af78bfada697996c8a6b0421
+  Created wheel for ai4sci: filename=ai4sci-0.0.0-0.editable-py3-none-any.whl size=1177 sha256=f776881a9779237fb2d4e2ded5b1204987d2baaf99f1cb9eb42e17359ed57e84
+  Stored in directory: /tmp/pip-ephem-wheel-cache-oxg2iylg/wheels/60/70/cf/ca6ea2776dc55a318f4fa01233e25e563261a45b069f63a30b
 Successfully built ai4sci
 Installing collected packages: ai4sci
-  Attempting uninstall: ai4sci
-    Found existing installation: ai4sci 0.0.0
-    Not uninstalling ai4sci at /lus/swift/home/jugacostase/.local/conda/2021-09-22/lib/python3.8/site-packages, outside environment /lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/venvs/thetaGPU/2022-07-01
-    Can't uninstall 'ai4sci'. No files were found to uninstall.
 Successfully installed ai4sci-0.0.0
 WIDTH: 
-DIR=/lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci
-MAIN=/lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py
-PARENT=/lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src
-ROOT=/lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining
-LOGDIR=/lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/logs
-LOGFILE=/lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/logs/2022-11-17-021157-thetalogin6_ngpu_ncpu32.log
+DIR=/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci
+MAIN=/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py
+PARENT=/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src
+ROOT=/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining
+LOGDIR=/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/logs
+LOGFILE=/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/logs/2022-11-17-110015-thetagpu22_ngpu8_ncpu256.log
 IBV_FORK_SAFE=
 ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  STARTING A NEW RUN ON  GPUs 32  ┃
+┃  STARTING A NEW RUN ON 8 GPUs 256  ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┃  - DATE: 2022-11-17-021157
-┃  - NCPUS: 32
-┃  - NRANKS: 
-┃  - NGPUS PER RANK: 2
-┃  - NGPUS TOTAL: 
-┃  - MAIN: /lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py
-┃  - Writing logs to /lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/logs/2022-11-17-021157-thetalogin6_ngpu_ncpu32.log
-┃  - python3: /lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/venvs/thetaGPU/2022-07-01/bin/python3
-┃  - mpirun: 
-┃  - ai4sci: /lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/__init__.py
-┃  - exec:   /lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/venvs/thetaGPU/2022-07-01/bin/python3 /lus/swift/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py batch_size=512
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┃  - DATE: 2022-11-17-110015
+┃  - NCPUS: 256
+┃  - NRANKS: 1
+┃  - NGPUS PER RANK: 8
+┃  - NGPUS TOTAL: 8
+┃  - MAIN: /home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py
+┃  - Writing logs to /home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/logs/2022-11-17-110015-thetagpu22_ngpu8_ncpu256.log
+┃  - python3: /home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/venvs/thetaGPU/2022-07-01/bin/python3
+┃  - mpirun: /lus/theta-fs0/software/thetagpu/openmpi/openmpi-4.1.4_ucx-1.12.1_gcc-9.4.0/bin/mpirun
+┃  - ai4sci: /home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/__init__.py
+┃  - exec: /lus/theta-fs0/software/thetagpu/openmpi/openmpi-4.1.4_ucx-1.12.1_gcc-9.4.0/bin/mpirun --verbose     -n 8     --hostfile /var/tmp/cobalt.10115850     -npernode 8     -x PYTHONUSERBASE     -x PYTHONSTARTUP     -x http_proxy     -x https_proxy     -x PATH     -x LD_LIBRARY_PATH /home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/venvs/thetaGPU/2022-07-01/bin/python3 /home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py batch_size=512
 ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
-2022-11-17 02:12:10.287989: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /soft/perftools/darshan/darshan-3.3.0/lib:/opt/cray/pe/papi/6.0.0.1/lib64:/opt/cray/job/2.2.4-7.0.2.1_2.91__g36b56f4.ari/lib64:/opt/intel/compilers_and_libraries_2020.0.166/linux/compiler/lib/intel64:/opt/intel/compilers_and_libraries_2020.0.166/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib:/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/mic/lib:/opt/intel/compilers_and_libraries_2020.0.166/linux/ipp/lib/intel64:/opt/intel/compilers_and_libraries_2020.0.166/linux/compiler/lib/intel64:/opt/intel/compilers_and_libraries_2020.0.166/linux/mkl/lib/intel64:/opt/intel/compilers_and_libraries_2020.0.166/linux/tbb/lib/intel64/gcc4.4:/opt/intel/debugger_2020/libipt/intel64/lib:/opt/intel/compilers_and_libraries_2020.0.166/linux/daal/lib/intel64_lin:/opt/intel/compilers_and_libraries_2020.0.166/linux/daal/../compiler/lib/intel64_lin:/dbhome/db2cat/sqllib/lib64:/dbhome/db2cat/sqllib/lib64/gskit:/dbhome/db2cat/sqllib/lib32
-2022-11-17 02:12:10.288077: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-[Thu Nov 17 02:12:13 2022] [unknown] Fatal error in PMPI_Init_thread: Other MPI error, error stack:
-MPIR_Init_thread(537): 
-MPID_Init(246).......: channel initialization failed
-MPID_Init(647).......:  PMI2 init failed: 1 
-./main.sh: line 156:  8942 Aborted                 (core dumped) WIDTH=$COLUMNS COLUMNS=$COLUMNS ${EXEC} $@ 2>&1 > ${LOGFILE}
+[thetagpu22:337382] Warning: could not find environment variable "PYTHONSTARTUP"
+2022-11-17 11:00:38.624005: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2022-11-17 11:00:38.624000: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2022-11-17 11:00:38.624005: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2022-11-17 11:00:38.624011: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2022-11-17 11:00:38.624009: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2022-11-17 11:00:38.623993: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2022-11-17 11:00:38.624012: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2022-11-17 11:00:38.624005: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+Traceback (most recent call last):
+  File "/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py", line 15, in <module>
+    import hydra
+ModuleNotFoundError: No module named 'hydra'
+Traceback (most recent call last):
+  File "/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py", line 15, in <module>
+    import hydra
+ModuleNotFoundError: No module named 'hydra'
+Traceback (most recent call last):
+  File "/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py", line 15, in <module>
+    import hydra
+ModuleNotFoundError: No module named 'hydra'
+Traceback (most recent call last):
+  File "/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py", line 15, in <module>
+    import hydra
+ModuleNotFoundError: No module named 'hydra'
+Traceback (most recent call last):
+  File "/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py", line 15, in <module>
+    import hydra
+ModuleNotFoundError: No module named 'hydra'
+Traceback (most recent call last):
+  File "/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py", line 15, in <module>
+    import hydra
+ModuleNotFoundError: No module named 'hydra'
+Traceback (most recent call last):
+  File "/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py", line 15, in <module>
+    import hydra
+ModuleNotFoundError: No module named 'hydra'
+Traceback (most recent call last):
+  File "/home/jugacostase/ThetaGPU/ai-science-training-series/07_largeScaleTraining/src/ai4sci/main.py", line 15, in <module>
+    import hydra
+ModuleNotFoundError: No module named 'hydra'
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+orterun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[16602,1],3]
+  Exit code:    1
+--------------------------------------------------------------------------
